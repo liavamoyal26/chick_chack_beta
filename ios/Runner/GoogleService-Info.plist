@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyB67EN9rduu8faz2QqzAZCKkyxYwbaDtiw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>682206727646</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.chickChackBeta</string>
+	<key>PROJECT_ID</key>
+	<string>chick-chack-97c32</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chick-chack-97c32.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:682206727646:ios:95f3a66c6ad99a9c16214f</string>
+	<key>DATABASE_URL</key>
+	<string>https://chick-chack-97c32-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
