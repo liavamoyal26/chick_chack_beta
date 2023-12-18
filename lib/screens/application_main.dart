@@ -20,7 +20,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 
-
 final userConnected =
     FirebaseAuth.instance.currentUser!; //to get the unique token
 //final _token = _user.uid;
@@ -63,13 +62,14 @@ class _MainAppState extends State<MainApp> {
         print('Failed to fetch data. Please try again later.');
       }
       if (response.body == 'null') {
-        print('response bode (allmissions) is emptey!!!');
+        print('response body (allmissions) is emptey!!!');
         return;
       }
       //------check for problems--------
       final Map<String, dynamic> listData = json.decode(response.body);
       final List<Mission> loadedItems = [];
       for (final item in listData.entries) {
+        print('title : ${item.value['title']},   ');
         loadedItems.add(
           Mission(
             title: item.value['title'],

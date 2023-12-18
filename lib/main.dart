@@ -6,6 +6,7 @@ import 'package:chick_chack_beta/screens/first_time.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:firebase_core/firebase_core.dart';
@@ -24,6 +25,8 @@ final theme = ThemeData(
   textTheme: GoogleFonts.aladinTextTheme(),
   appBarTheme: const AppBarTheme(color: Color.fromARGB(255, 15, 121, 213)),
 );
+
+final FlutterLocalNotificationsPlugin FLNP = FlutterLocalNotificationsPlugin();
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
